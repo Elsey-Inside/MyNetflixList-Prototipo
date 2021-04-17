@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Mi Lista Netflix</title>
+    <link rel= "stylesheet" type= "text/css" href= "css/style.css">
+    <link rel="icon" type="image/svg" href="img/icono.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
+    <script src="https://kit.fontawesome.com/50a640d915.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="banner"> <!-- Este primer div es necesario para hacer flexible el contenido del banner -->
+            <img src= "img/icono.svg">
+            <input type="checkbox" id="menu">
+		    <label for="menu">
+                <img src="img/menu-button.svg" alt="">
+            </label>
+            <nav>
+                <div class="side-menu"> <!-- Este div es utilizado para hacer que el menu de navegacion se adapte al ser apretado el checbox -->
+                    <ul>
+                        <li><a href="#">Visita nuestra app web</a></li>
+                        <li><a href="#">Descarga nuestra app movil</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <picture>
+            <source media="(min-width:1080px)" srcset="img/hero-image.jpg">
+            <source media="(min-width:812px)" srcset="img/hero-image-landscape.jpg">
+            <img src="img/hero-image-movil.jpg" alt="Hero Image">
+            <p>En nuestra base de datos contamos con la información de 9500 películas, series y documentales de la plataforma de Netflix para que así podas encontrar, calificar, reseñar, comentar, entre muchas más cosas...Desde nuestra aplicación de <em>MiListaNetflix</em></p>
+        </picture>
+    </header>
+    <main>
+        <article>
+            <h2>¡Calificá!</h2>
+            <img src="img/targeta1.svg">
+            <div> <!-- este div es para hacer voltear el fondo negro del siguiente texto -->
+                <p>¡Dale tu amor u odio a esas series, películas y documentales!</p>
+                <p>Califica tus series, películas y o documentales conforme lo qué te ha parecido, para así ayudar a otros usuarios a elegir correctamente.</p>
+            </div>
+        </article>
+        <article>
+            <h2>¡Encontrá!</h2>
+            <img src="img/targeta2.svg">
+            <div> <!-- este div es para hacer voltear el fondo negro del siguiente texto -->
+                <p>¡No creas qué sé nos escapara una!</p>
+                <p>En Mi Lista Netflix podrás encontrar la información de la serie, película o documental que buscas de Netflix, preparada para que la agregues a tus listas personales.</p>
+            </div>
+        </article>
+        <article>
+            <h2>¡Comentá!</h2>
+            <img src="img/targeta3.svg">
+            <div> <!-- este div es para hacer voltear el fondo negro del siguiente texto -->
+                <p>¿¡Y qué más importante, qué tu opinión!?</p>
+                <p>Tus comentarios ayudarán a otros usuarios a saber qué verán en ese momento de ocio</p>
+                <p>¡Claro está, sin spoilers!</p>
+            </div>
+        </article>
+        <article>
+            <h2>¡Agregá nuestra app a tu Smartphone!</h2>
+            <img src="img/targeta4.svg">
+            <div> <!-- este div es para hacer voltear el fondo negro del siguiente texto -->
+                <p>Nuestra app con una caficacion 4,7 ¡más qué envidiable!, todo esto, debido a sus constantes actualizaciones que la mantienen eficiente.</p>
+                <p>¡Búscala en iOS y ahora en Android!</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <img src="img/icono.svg">
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rem porro, incidunt    consequuntur earum est quas beatae, temporibus natus voluptate ducimus atque distinctio dolor modi laudantium architecto eveniet, esse reiciendis!</p>
+        <section> <!-- este section sirve de contenedor para hacer que los iconos mantengan un orden de fila -->
+            <h2>Redes Sociales</h2>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+        </section>
+        <p>milistaneflix.com &copy; 2020</p>
+    </footer>
+</body>
+</html>
