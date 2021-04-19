@@ -55,6 +55,43 @@ header p{
   position: absolute;
   width: 90vw;
 }
+.espace li{
+margin: 5vw;
+box-shadow:0vw 2vw 1vw 0 #dcdcdc;
+}
+a{
+text-decoration:none;color:#191919
+} 
+.rainbow-button{
+width:calc(100vw + 6vw);
+height:calc(8vw + 6px);
+background-image:linear-gradient(90deg,#00C0FF 0,#FFCF00 49%,#FC4F4F 80%,#00C0FF 100%);
+border-radius:5px;display:flex;align-items:center;
+justify-content:center;
+text-transform:uppercase;
+font-size:3vw;
+font-weight:700
+} 
+
+.rainbow-button:after{
+content:attr(alt);
+width:102vw;
+height:8vw;
+background-color:#fff;
+display:flex;
+border-radius: 2vw;
+align-items:center;
+justify-content:center
+} 
+
+.rainbow-button:hover{
+animation:slidebg 2s linear infinite
+} 
+
+@keyframes slidebg{to{
+background-position:20vw
+}}
+
 /*-------------------CONTENIDO-------------------*/
 article h2{
   text-align: center;
